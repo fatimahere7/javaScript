@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ .center {
+  justify-content: center;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.cent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+<body>
+    <img id="myimage" src="pic_bulboff.gif" style="width: 100px" class="center" alt="bulb"><br>
+    <button class="cent" onclick="document.getElementById('myimage').src='pic_bulbon.gif'">On</button>
+    <button class="cent" onclick="document.getElementById('myimage').src='pic_bulboff.gif'">Off</button>
+</body>
+</html>
